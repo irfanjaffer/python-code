@@ -1,1 +1,31 @@
 # python-code
+#basic code of python for calculator
+n= input ("enter your firsr number")
+m= input ("enter your second number ")
+ans1 = (int(n)+int(m))
+print("addition of" ,n, "and" ,m, "is", ans1)
+
+n= input ("enter your firsr number")
+m= input ("enter your second number ")
+ans2 = (int(n)-int(m))
+print("subtraction of" ,n, "and" ,m, "is", ans2)
+
+n= input ("enter your firsr number")
+m= input ("enter your second number ")
+ans3 =(int(n)*int(m))
+print("multiplication of" ,n, "and" ,m ,"is", ans3)
+
+n= input ("enter your firsr number")
+m= input ("enter your second number ")
+ans4 =(int(n)/int(m))
+print("division of", n, "and" ,m ,"is", ans4)
+
+n= input ("enter your firsr number")
+m= input ("enter your second number ")
+ans5 = (int(n)%int(m))
+print("modulus of" ,n, "and" ,m ,"is", ans5)
+
+n= input ("enter your firsr number")
+m= input ("enter your second number ")
+ans6 = (int(n)//int(m))
+print("floor division of", n, "and" ,m ,"is", ans6)
